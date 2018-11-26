@@ -1,0 +1,27 @@
+/*
+* @Author: dengyongqing@aliyun.com
+* @Date: 2016-12-26 11:55:57
+*/
+
+.z_select-container{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+}
+
+.z_select-text{
+	width: 100%;
+	display: flex;
+	margin: 0 3px;
+	flex: 1;
+	max-width: calc(100% - 12px);
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.z_spliter{
+	display: flex;
+	flex-grow: 1;
+}

@@ -1,0 +1,17 @@
+
+
+.mui-editor {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 300px;
+  height: 500px;
+  z-index: 1000;
+  overflow-y: scroll;
+}
+
+.slide-page{
+	width: 100%;
+	min-height: 100%;
+	overflow: scroll;
+}

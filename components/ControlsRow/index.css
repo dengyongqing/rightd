@@ -1,0 +1,13 @@
+/*
+* @Author: dengyongqing@aliyun.com
+* @Date: 2016-12-26 11:55:57
+*/
+.z_controls-panel-row{
+  position: relative;
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-round;
+  align-items: center;
+}

@@ -1,0 +1,25 @@
+/*
+* @Author: dengyongqing@aliyun.com
+* @Date:   2016-12-11 10:07:33
+* @Last Modified by:   dengyongqing@aliyun.com
+* @Last Modified time: 2017-02-17 22:46:44
+*/
+
+.z_combound_container{
+	display: flex;
+	flex-direction: row;
+}
+.z_combound_left{
+	flex-grow: 3;
+}
+.z_combound_right{
+	flex-grow: 1;
+}
+.z_select_wrapper{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+.z_select-color{
+	padding-left: 4px;
+}

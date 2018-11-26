@@ -1,0 +1,57 @@
+/*
+* @Author: dengyongqing@aliyun.com
+* @Date: 2016-12-27 15:52:11
+*/
+
+.date-picker-inline {
+    padding: 0 20px;
+    display: inline-block;
+}
+
+.date-picker-inline label {
+    display: none;
+}
+.date-picker-inline input {
+    height: 50% !important;
+    border: 1px solid #ccc !important;
+}
+
+.text-field-style {
+    color: #fff;
+}
+
+.z_time-value-container{
+	overflow-x: hidden;
+	padding: 5px;
+	font-size: 12px;
+	flex-grow: 1;
+}
+
+.z_time-picker-head{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	height: 32px;
+	font-size: 14px;
+	color: #72889F;
+}
+
+.z_time-picker-body{
+	width: 100%;
+	height: auto;
+	overflow: visible;
+	display: flex;
+	flex-direction: row;
+	padding: 6px 0;
+}
+.z_time-calendar{
+	margin-left: 12px;
+}
+.z_flatButton:hover{
+    border-radius: 40px!important;
+}
+.z-time-buttons{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}

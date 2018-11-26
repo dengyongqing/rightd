@@ -1,0 +1,15 @@
+/*
+* @Author: dengyongqing@aliyun.com
+* @Date:   2016-12-11 10:07:33
+* @Last Modified by:   dengyongqing@aliyun.com
+* @Last Modified time: 2017-04-28 13:53:29
+*/
+
+.z_color-gradient-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  /* border: 1px solid rgba(150, 150, 150, 0.2); */
+  /* border-radius: 3px; */
+}

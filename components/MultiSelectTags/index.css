@@ -1,0 +1,22 @@
+/*
+* @Author: dengyongqing@aliyun.com
+* @Date: 2016-12-26 11:55:57
+*/
+.z_input-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	overflow-x: hidden;
+	overflow-y: auto;
+	border-radius: 3px;
+	/* padding: 0 5px; */
+}
+.z_input-wrapper-container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: space-around;
+	height: auto;
+}

@@ -1,0 +1,80 @@
+/*
+* @Author: dengyongqing@aliyun.com
+* @Date: 2016-12-26 11:55:57
+*/
+
+.z_control-container, .z_control-name, .z_control-body, .z_control-end, .z_control-depth-space{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+}
+.z_control-container{
+  width: 100%;
+  justify-content: space-around;
+  transition: opacity 0.3s, color 0.3s, background 0.3s, background-color 0.3s;
+}
+
+.z_control-container:hover{
+  opacity: 1;
+  // cursor: pointer;
+  overflow: visible;
+}
+
+.z_desc_incon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   margin-left: 5px; 
+  /* padding: 5px; */
+  
+  position: relative;
+}
+
+.z_name_wrapper{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+}
+.z_warn {
+  position: absolute;
+  left: -6px;
+  color: #f00
+}
+.z_name{
+  text-overflow:ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.z_control-name{
+  font-size: 12px;
+  justify-content: flex-start;
+  align-items: center;
+  /* color: rgba(255, 255, 255, 0.8); */
+  overflow: hidden!important;
+  text-overflow:ellipsis;
+  flex-wrap: nowrap;
+}
+
+.z_control-end{
+  transition: opacity 0.3s, color 0.3s, background 0.3s, background-color 0.3s;
+  flex-grow: 1;
+  width: 1px;
+  min-width: 40px;
+  min-height: 100%;
+  pointer-events: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.z_control-end:hover{
+}
+.toolStyle  {
+  width: 100px;
+  max-width: 200px;
+  word-break: break-all;
+  background-color: #444;
+  z-index: 999999;
+}

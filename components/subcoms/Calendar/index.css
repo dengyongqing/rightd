@@ -1,0 +1,3 @@
+.z_time:not(:last-child){
+    margin-right: 20px
+}

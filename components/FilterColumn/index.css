@@ -1,0 +1,50 @@
+
+.z_line-name-wrapper{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.z_operate_wrapper{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+
+}
+.z-filter{
+  box-sizing: border-box
+}
+.z_filter_wrapper{
+  font-size: 12px;
+  /* height: auto; */
+  width: 100%;
+}
+
+.z_line-name{
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.z_query_div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.z_control-container-direction{
+  width: 100%;
+  flex-direction: column;
+  /* padding: 8px 0; */
+  /* background: rgba(0, 0, 0, 0.1); */
+}
+.z_control-raiseButton{
+  margin-top: 8px;
+  text-align: right;
+}
+.z_or_and{
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}

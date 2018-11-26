@@ -1,0 +1,44 @@
+
+body, html, .input-container, .container{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+body, html, .container{
+	width: 100%;
+	top: 0;
+	left: 0;
+	min-height: 100%;
+}
+
+.select-container{
+	background: #eee;
+	position: absolute;
+	right: 80px;
+	top: 20px;
+	width: 200px;
+	color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+.row-container{
+	position: absolute;
+	top: 20px;
+	width: 1300px;
+	height: 50px;
+	left: 50px;
+	overflow: hidden;
+	box-shadow: 1px 1px 3px rgba(150, 150, 150, 0.5);
+}
+.column-container{
+	background: #fff;
+	position: absolute;
+	width: 200px;
+	height: 100%;
+	left: 0;
+	padding: 12px 24px;
+
+}

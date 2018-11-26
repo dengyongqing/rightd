@@ -1,0 +1,10 @@
+/*
+* @Author: dengyongqing@aliyun.com
+* @Date: 2016-12-26 11:55:57
+*/
+.z_controls-header-row{
+	flex-grow: 0.2;
+}
+.z_controls-footer-row{
+	flex-grow: 0.2;
+}

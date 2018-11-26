@@ -1,0 +1,17 @@
+{
+  "entry": "./src/index.js",
+  "include": ["components", "lib", "meta"],
+  "publicPath": "/",
+  "disableCSSModules": true,
+  "extraBabelPlugins": [
+    "dva-hmr",
+    "transform-runtime"
+  ],
+  "env": {
+    "development": {
+      "extraBabelPlugins": ["dva-hmr"]
+    },
+    "production": {
+    }
+  }
+}

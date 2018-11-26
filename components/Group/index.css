@@ -1,0 +1,61 @@
+/*
+ * index.css
+ * Copyright (C) 2017 disoul
+ *
+ * Distributed under terms of the MIT license.
+ */
+.z_group-container{
+}
+.z_group-content {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all ease 0.15s;
+}
+
+.z_group-depth{
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.z_group-depth, .z_group-main, .z_group-line-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.z_group-line-container {
+  position: relative;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.3s;
+  /* box-shadow: 0 0 4px rgba(0, 1px, 0, 0.1); */
+}
+
+.z_group-main{
+	flex-grow: 11;
+}
+.z_group-content-container {
+}
+.z_group-end{
+  display: flex;
+  width: 1;
+  transition: 0.2s;
+  align-items: center;
+  justify-content: center;
+}
+
+.z_group-icon-show, .z_group-icon-hide{
+  transition: 0.3s;
+  transform-origin: 50% 50%;
+  font-size: 12px;
+  width: 14px;
+  color: rgba(150, 150, 150, 0.8);
+}
+.z_group-icon-show{
+  transform: scale(0.6) rotate(0deg);
+}
+
+.z_group-icon-hide{
+  transform: scale(0.6) rotate(-90deg);
+}
+

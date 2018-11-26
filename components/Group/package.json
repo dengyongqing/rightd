@@ -1,0 +1,14 @@
+{
+  "author": "dengyongqing@aliyun.com",
+  "name": "color",
+  "description": "在不同的颜色空间选择颜色",
+  "repository": {
+    "type": "git"
+   },
+  "version": "0.0.1",
+  "scripts": {
+  },
+  "dependencies": {
+    "react": "^15.3.1"
+  }
+}

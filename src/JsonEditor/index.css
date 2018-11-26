@@ -1,0 +1,21 @@
+.input-container, .code-container{
+  position: relative;
+  flex-growth: 1;
+  height: auto;
+  display:block;
+  width: 50%;
+  overflow: visible;
+}
+
+.group-container{
+  position: absolute;
+  display: flex;
+  background: transparent;
+  top: 50px;
+  left: 100px;
+  width: 800px;
+  height: 400px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 5px rgba(55, 55, 55, 0.5);
+  overflow: hidden!important;
+}

@@ -1,0 +1,15 @@
+/*
+* @Author: dengyongqing@aliyun.com
+* @Date: 2016-12-26 11:55:57
+*/
+
+
+.z_editor-background{
+  position: fixed;
+  width: 2000px;
+  height: 2000px;
+  top: -1000px;
+  left: -1000px;
+  pointer-events: auto;
+  z-index: 0!important;
+}

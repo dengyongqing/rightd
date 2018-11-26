@@ -1,0 +1,21 @@
+/*
+* @Author: dengyongqing@aliyun.com
+* @Date:   2016-12-11 10:07:33
+* @Last Modified by:   dengyongqing@aliyun.com
+* @Last Modified time: 2017-02-15 11:22:09
+*/
+.z_range-container{
+	display: flex;
+	flex-grow: row;
+}
+.z_range {
+	display: flex;
+	flex-grow: row;
+	width: 100%;
+}
+.z_range-spliter{
+	width: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}

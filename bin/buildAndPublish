@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+PATH_SOURCE="."
+PATH_TMP=".tmp"
+PATH_DEST="build"
+
+BIN='./bin'
+
+echo "同步文件..."
+rsync -r --verbose --exclude node_modules --exclude docs --exclude public $PATH_SOURCE $PATH_TMP >> /dev/null
+
+echo "Babel..."
+babel -D --no-comments --extensions ".js,.jsx" $PATH_TMP -d $PATH_DEST >> /dev/null
+
+cd $PATH_DEST
+
+echo ""
+echo "开始发布 ..."
+$BIN/publish.js
+echo "发布结束..."
+cp package.json ..
+
+echo "清理..."
+cd -
+rm -rf $PATH_TMP $PATH_DEST
+echo "清理完毕."

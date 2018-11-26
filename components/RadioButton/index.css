@@ -1,0 +1,7 @@
+.z_radio{
+  width: 100%;
+}
+.radio > div{
+  display: flex;
+  align-items: center;
+}

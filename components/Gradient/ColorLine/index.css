@@ -1,0 +1,52 @@
+/*
+* @Author: dengyongqing@aliyun.com
+* @Date:   2016-12-11 10:07:33
+* @Last Modified by:   dengyongqing@aliyun.com
+* @Last Modified time: 2017-02-15 11:18:02
+*/
+
+.z_color-line-grid-gradient{
+	border-top: 2px solid rgba(0,0,0,0);
+}
+.z_color-line-grid{
+	flex-grow: 1;
+	transform-origin: 50% 50%;
+	pointer-events: auto;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+.z_select-color:first-child{
+	margin-right: 3px;
+}
+.z_select-color{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 3px;
+}
+.z_gradient-picker{
+  display: flex;
+  flex-direction: row;
+}
+.z_grid-color {
+	display: flex;
+	flex-direction: row;
+	flex: 1; 
+	box-sizing: border-box;
+	
+}
+/* 
+.z_color-line-grid-gradient:hover{
+	border-top: 2px solid rgba(0,0,0,1);
+} */
+
+.z_color-line-split{
+	height: 100%;
+	background: transparent;
+	flex-grow: 0.1;
+}
+
+.z_color-line-selector{
+	flex-grow: 2;
+	border-radius: 2px;
+}

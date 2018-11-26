@@ -1,0 +1,71 @@
+/*
+* @Author: dengyongqing@aliyun.com
+* @Date: 2016-12-26 11:55:57
+*/
+.z_multi-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	/* flex-wrap: wrap; */
+	overflow-y: hidden;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+.z_multi-wrapper-container{
+	display: flex;
+	width: 100%;
+	padding: 0 0px;
+	/* align-items: space-around; */
+	align-items: center;
+	height: 100%;
+}
+.z_multi-input{
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.z_multi-search{
+	position: absolute;
+	right: 8px;
+	color: #cccccc!important;
+}
+
+.z_multi-text{
+	display: flex;
+	margin: 0 3px;
+	flex: 1;
+	max-width: calc(100% - 12px);
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.z_multi-item{
+	position: relative;
+	margin-right: 12px;
+	color: #4a4a4a;
+}
+.z_multi-item:not(:last-child):after{
+	position: absolute;
+	content: "、";
+
+}
+ div[role="presentation"]::-webkit-scrollbar{
+	width: 4px; 
+	height: 0;
+	background-color: rgba(155, 155, 155, 0);
+}
+div[role="presentation"]::-webkit-scrollbar-thumb{
+	background-color: rgba(155, 155, 155, 0.6);
+}
+div[role="presentation"]::-webkit-scrollbar-track{
+	background-color: rgba(155, 155, 155, 0);
+} 
+div[role="menu"]{
+	display: block!important;
+	padding: 0!important;	
+}
+
+

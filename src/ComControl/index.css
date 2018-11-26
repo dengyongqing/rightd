@@ -1,0 +1,19 @@
+
+.wrapper-container{
+	display: flex;
+	flex-direction: flex-end;
+	width: 100%;
+}
+
+.com-container, .control-container{
+	display: flex;
+	flex-direction: flex-end;
+}
+
+.com-container{
+	flex-grow: 2;
+}
+.control-container{
+	width: 300px;
+	height: 800px;
+}

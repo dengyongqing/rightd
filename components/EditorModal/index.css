@@ -1,0 +1,45 @@
+/*
+* @Author: dengyongqing@aliyun.com
+* @Date: 2016-12-26 11:55:57
+*/
+
+.z_editor-background{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1500;
+  pointer-events: auto;
+  align-items: center;
+}
+.z_editor-center-box{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 5px;
+  overflow: hidden;
+  pointer-events: auto;
+}
+.z_editor-center-head{
+	flex-grow: 1;
+	max-height: 48px;
+  min-height: 48px;
+	width: 100%;
+  color: #0ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.z_editor-center-body{
+	flex-grow: 1;
+	width: 100%;
+	background: transparent;
+}
+.z_editor-divison{
+  height: 30px;
+}

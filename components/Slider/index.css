@@ -1,0 +1,26 @@
+/*
+* @Author: dengyongqing@aliyun.com
+* @Date: 2016-12-26 11:55:57
+*/
+
+.z_slider-line-container{
+	display: flex;
+	width: 100%;
+	height: 100%;
+  justify-content: center;
+}
+
+.z_slider-space{
+  width: 10px;
+  height: 100%;
+}
+
+.z_slider-container{
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+.z_slider-number{
+  flex-grow: 0.6;
+  max-width: 50px;
+}

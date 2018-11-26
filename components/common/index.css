@@ -1,0 +1,15 @@
+/*
+* @Author: dengyongqing@aliyun.com
+* @Date:   2016-12-11 10:07:33
+* @Last Modified by:   dengyongqing@aliyun.com
+* @Last Modified time: 2017-06-28 11:24:37
+*/
+.z_control-depth-space{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1px;
+  background: rgba(0, 0, 0, 0);
+  height: 1px;
+}
+
