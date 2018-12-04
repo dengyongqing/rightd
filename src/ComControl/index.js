@@ -2,14 +2,15 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Controls from './../../components/Controls';
-import Utils from './../../lib/utils';
-import _ from 'lodash';
-
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
+import _ from 'lodash';
+
+import Controls from './../../components/Controls';
+import Utils from './../../lib/utils';
+
+import './index.css';
 
 const getOption = Com => Com.defaultProps.options || Com.defaultProps;
 
@@ -80,20 +81,4 @@ export default class ComControl extends Component {
   }
 }
 
-// //<JsonEditor data={object} onChange={(options, diff, validation) => console.log(validation)}/>
-// //<Controls data={validation} onChange={(a, b, c) => console.log(a)}/>
-// let json = Utils.toValidation(object);
-// const redraw = () => {
-// 	ReactDOM.render(
-// 		<div>
-// 			<MuiThemeProvider muiTheme={getMuiTheme(theme)}>
-// 			  <Controls data={validation} onChange={(a, b, c) => console.log()}/>
-// 			</MuiThemeProvider>
-// 		</div>
-// 		,
-// 	  document.querySelector('.app')
-// 	);
-// };
-// //<MuiEditor data={_.cloneDeep(themeCopy)} onChange={onThemeChange} />
-// redraw();
 
